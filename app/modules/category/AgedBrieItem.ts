@@ -11,7 +11,5 @@ export default class AgedBrieItem extends Item {
     if (this.sellIn < 0 && this.quality < 50) {
       this.quality += 1;
     }
-
-    return this;
   }
 }
